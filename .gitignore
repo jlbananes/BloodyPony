@@ -1,0 +1,4 @@
+# Ignoring Build, Binaries and Config
+Binaries/
+Build/
+Config/
