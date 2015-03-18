@@ -1,0 +1,80 @@
+﻿Log file open, 03/18/15 10:34:37
+LogInit:Display: Running engine for game: BloodyPony
+LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.18-09.34.37:896][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.18-09.34.37:961][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.18-09.34.37:983][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.18-09.34.37:991][  0]LogInit: Object subsystem initialized
+[2015.03.18-09.34.37:996][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.18-09.34.37:996][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.18-09.34.38:001][  0]LogInit: Computer: LUCY
+[2015.03.18-09.34.38:001][  0]LogInit: User: Lucy12
+[2015.03.18-09.34.38:001][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.18-09.34.38:001][  0]LogInit: High frequency timer resolution =2.630630 MHz
+[2015.03.18-09.34.38:001][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.03.18-09.34.38:001][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.18-09.34.38:001][  0]LogMemory: Process Physical Memory: 45.70 MB used, 45.70 MB peak
+[2015.03.18-09.34.38:001][  0]LogMemory: Process Virtual Memory: 24.54 MB used, 24.65 MB peak
+[2015.03.18-09.34.38:001][  0]LogMemory: Physical Memory: 4596.21 MB used, 8115.02 MB total
+[2015.03.18-09.34.38:001][  0]LogMemory: Virtual Memory: 302.44 MB used, 134217728.00 MB total
+[2015.03.18-09.34.38:033][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 765M        (Feature Level 11_0)
+[2015.03.18-09.34.38:033][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.03.18-09.34.38:034][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.03.18-09.34.38:034][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.03.18-09.34.38:034][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.18-09.34.38:038][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.18-09.34.38:051][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.18-09.34.38:135][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.03.18-09.34.38:207][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.03.18-09.34.38:207][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.03.18-09.34.38:279][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.18-09.34.40:531][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.18-09.34.41:203][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.18-09.34.41:293][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.18-09.34.41:330][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Lucy.1.2/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.18-09.34.41:330][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Lucy.1.2/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.18-09.34.41:330][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Workspace/BloodyPony/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.18-09.34.41:330][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.18-09.34.41:432][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.18-09.34.41:445][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lucy.1.2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.18-09.34.41:753][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.18-09.34.41:753][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.18-09.34.42:189][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.18-09.34.42:325][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.18-09.34.43:495][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.18-09.34.43:798][  0]SourceControl: Info Source control is disabled
+[2015.03.18-09.34.43:798][  0]SourceControl: Info Source control is disabled
+[2015.03.18-09.34.43:798][  0]SourceControl: Info Source control is disabled
+[2015.03.18-09.34.43:798][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.18-09.34.43:798][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.18-09.34.43:817][  0]SourceControl: Info Source control is disabled
+[2015.03.18-09.34.44:123][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.18-09.34.44:123][  0]LogUObjectAllocator: 5136432 out of 0 bytes used by permanent object pool.
+[2015.03.18-09.34.44:214][  0]LogEngine: Initializing Engine...
+[2015.03.18-09.34.46:525][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.03.18-09.34.46:543][  0]LogInit: FAudioDevice initialized.
+[2015.03.18-09.34.46:601][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.18-09.34.46:624][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Lucy.1.2/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.18-09.34.46:626][  0]LogInit: Texture streaming: Enabled
+[2015.03.18-09.34.46:737][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.18-09.34.46:737][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.18-09.34.46:737][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.18-09.34.46:737][  0]LogAnalytics: SetUserId dcec41844ddb51fa3bb9efba76103bc4|9f9a9abba4594cf1b308a91989634c34|dc22ae71-e03c-4ba4-a9c7-37a06cf22428
+[2015.03.18-09.34.46:737][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.18-09.34.46:786][  0]LogInit: Transaction tracking system initialized
+[2015.03.18-09.34.47:047][  0]BlueprintLog: New page: Editor Load
+[2015.03.18-09.34.47:097][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.03.18-09.34.47:097][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.18-09.34.47:821][  0]LogTargetPlatfo
